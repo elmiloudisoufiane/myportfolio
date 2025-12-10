@@ -1,23 +1,22 @@
-import logo from './logo.svg';
+import { Form } from 'lucide-react';
 import './App.css';
+import About from './components/About';
+import Contact from './components/Contact';
+import Navbar from './components/Header';
+import Home from './components/Home';
+import ContactForm from './components/Form';
+import Footer from './components/Footer';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App bg-gradient-to-b from-black via-gray-900 to-gray-800 min-h-screen">
+      <Navbar />
+      <Home />
+      <About />
+      <Contact />
+      <ContactForm />
+      <Footer />
     </div>
   );
 }
