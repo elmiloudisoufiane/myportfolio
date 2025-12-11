@@ -14,7 +14,7 @@ function Home() {
           </h1>
           
           <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-            I'm a passionate full-stack developer with over 5 years of experience building modern web applications. I love turning complex problems into simple, beautiful, and intuitive designs.
+            I'm a passionate full-stack developer with over 2 years of experience building modern web applications. I love turning complex problems into simple, beautiful, and intuitive designs.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
