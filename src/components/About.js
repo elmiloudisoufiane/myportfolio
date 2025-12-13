@@ -165,7 +165,7 @@ function About() {
           <AnimatedSection animation="zoom" delay={0.75}>
             <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-6 text-center border border-white/10 hover:scale-105 transition-transform duration-300 cursor-pointer">
               <div className="text-4xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent mb-2">
-                50+
+                15+
               </div>
               <div className="text-gray-300">Projects Done</div>
             </div>

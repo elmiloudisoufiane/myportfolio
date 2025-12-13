@@ -6,7 +6,7 @@ function ContactForm() {
 
   if (state.succeeded) {
     return (
-      <p className="text-center text-green-600 font-semibold text-xl py-10">
+      <p className="text-center bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent font-semibold text-xl py-10">
         Thanks for joining!
     </p>
     );

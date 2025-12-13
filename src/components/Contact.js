@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import { Mail, Phone, MapPin, Send, Github, Linkedin, Twitter } from 'lucide-react';
 import { useForm, ValidationError } from '@formspree/react';
 
-// Hook لتتبع ظهور العنصر في الشاشة
+// Hook to detect if an element is in view
 const useInView = (options = {}) => {
   const ref = useRef(null);
   const [isInView, setIsInView] = useState(false);
@@ -33,7 +33,7 @@ const useInView = (options = {}) => {
   return [ref, isInView];
 };
 
-// كومبوننت الأنيميشن
+// AnimatedSection Component
 const AnimatedSection = ({ children, animation = 'fade', delay = 0 }) => {
   const [ref, isInView] = useInView({ threshold: 0.2 });
 
@@ -66,19 +66,19 @@ function Contact() {
     {
       icon: <Mail className="w-6 h-6" />,
       title: "Email",
-      value: "elmiloudisofyan@gmail.com",
-      link: "mailto:your.email@example.com"
+      value: "elmiloudisofianedev@gmail.com",
+      link: "mailto:elmiloudisoufianedev@gmail.com"
     },
     {
       icon: <Phone className="w-6 h-6" />,
       title: "Phone",
       value: "+212720427801",
-      link: "tel:+1234567890"
+      link: "tel:+212720427801"
     },
     {
       icon: <MapPin className="w-6 h-6" />,
       title: "Location",
-      value: "Marrakesh, Morocco",
+      value: "Safi, Morocco",
       link: "#"
     }
   ];
