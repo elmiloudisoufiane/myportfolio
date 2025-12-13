@@ -66,7 +66,7 @@ function Contact() {
     {
       icon: <Mail className="w-6 h-6" />,
       title: "Email",
-      value: "elmiloudisofianedev@gmail.com",
+      value: "elmiloudisoufianedev@gmail.com",
       link: "mailto:elmiloudisoufianedev@gmail.com"
     },
     {
